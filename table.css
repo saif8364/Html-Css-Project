@@ -1,0 +1,49 @@
+
+      
+       .table
+       {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       }
+        table{
+        
+            
+            width: 95vw;
+        margin: 0;
+        border: 2px solid transparent;
+            border-radius: 30px;
+            overflow: hidden;
+            
+        }
+        th{
+            font-family: sans-serif;
+            color: #d26b87ee;
+           text-align: center;
+           width: 10px;
+        }
+        td{
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: lighter;
+            
+        }
+        img{
+            width: 20px;
+        }
+       #icon
+       {
+        width: 50px;
+       }
+       .one
+       {
+        width: 20px;
+        background-color: #d26b873f;
+       }
+       .two
+       {
+        background-color: rgba(255, 255, 255, 0.685);
+        width: 20px;
+       }
+        

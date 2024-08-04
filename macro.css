@@ -1,0 +1,77 @@
+.macro{
+    display: flex;
+    
+}
+
+.learners
+{
+    position:sticky;
+}
+.learners img{
+    width: 25px;
+    
+}
+
+#one{
+    position: relative;
+    z-index: 1;
+}
+#two{
+    position: relative;
+    z-index: 2;
+    right: 34px;
+    outline: #d26b86;
+}
+#three{
+    position: relative;
+    z-index: 3;
+    right: 67px;
+    outline: #d26b86;
+}
+#four{
+    position: relative;
+    z-index: 4;
+    right: 100px;
+    outline: #d26b86;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learners{
+    display: flex;
+  
+    flex-direction: column;
+    gap: 10px;
+
+}
+.rating
+{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   border-left: 2px solid black;
+   padding-left: 60px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2 img{
+    width: 2vw;
+    margin: 0;
+}
+
+@media screen and (max-width:441) {
+    .learners,.rating{
+        width: 47vw;
+    }
+    .rating{
+        padding: 0px 0px;
+    }
+
+}
